@@ -17,4 +17,4 @@ jobs:
       - name: Tests
         uses: Yandex-Practicum/test-project-action@v1
         with:
-          project: 'malikovaar-hash/ono-tebe-nado-ad
+          project: 'malikovaar-hash/ono-tebe-nado-ad'
