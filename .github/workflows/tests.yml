@@ -17,6 +17,5 @@ jobs:
         run: exit 1
         if: ${{ github.event.repository.private }}
       - name: Tests
-        uses: Yandex-Praktikum/test-project-action@v1
-        with:
+             uses: Yandex-Practicum/test-project-action@v1
           project: 'ono-tebe-nado-ad'
