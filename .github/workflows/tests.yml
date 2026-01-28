@@ -1,12 +1,10 @@
 name: Tests
-
 on:
   push:
     branches:
       - '**'
-    tags:
-      - '**'
-
+  tags:
+    - '**'
 jobs:
   tests:
     runs-on: ubuntu-latest
@@ -17,5 +15,6 @@ jobs:
         run: exit 1
         if: ${{ github.event.repository.private }}
       - name: Tests
-             uses: Yandex-Practicum/test-project-action@v1
+        uses: Yandex-Practicum/test-project-action@v1
+        with:
           project: 'ono-tebe-nado-ad'
