@@ -10,7 +10,7 @@
 /* =======================
    Шапка сайта (Header)
    ======================= */
-header {
+.header {
   padding: 77px 24px 90px 24px;
   display: flex;
   justify-content: space-between;
